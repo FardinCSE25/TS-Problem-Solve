@@ -45,5 +45,5 @@ Clone the project:
 
 ```bash
 git clone https://github.com/FardinCSE25/TS-Problem-Solve.git
-npm install
+cd TS-Problem-Solve
 node solutions.ts
