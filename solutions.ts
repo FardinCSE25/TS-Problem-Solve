@@ -8,8 +8,6 @@ const filterEvenNumbers = (arr: number[]): number[] => {
   return filteredArray;
 }
 
-filterEvenNumbers([1, 2, 3, 4, 5, 6]);
-
 
 
 // Problem-2 :
@@ -18,8 +16,6 @@ const reverseString = (text: string): string => {
   const reversedTextArray = singleLettersArray.reverse().join("");
   return `"${reversedTextArray}"`;
 }
-
-reverseString("typescript");
 
 
 
@@ -35,10 +31,6 @@ const checkType = (text: StringOrNumber) => {
   }
 }
 
-checkType("Hello");
-checkType(42);
-
-
 
 
 // Problem-4 :
@@ -47,8 +39,6 @@ const user = { id: 1, name: "John Doe", age: 21 };
 const getProperty = <T>(info: T, key: keyof T) => {
   return info[key]
 }
-
-getProperty(user, "id");
 
 
 
@@ -67,8 +57,6 @@ const toggleReadStatus = (bookInfo: Book) => {
     isRead: true
   }
 }
-
-toggleReadStatus(myBook);
 
 
 
@@ -97,9 +85,6 @@ class Student extends Person {
   }
 }
 
-const student = new Student("Alice", 20, "A");
-student.getDetails();
-
 
 
 
@@ -112,5 +97,3 @@ const getIntersection: getIntersectionFunc = (array1, array2) => {
   })
   return intersectedArray;
 }
-
-getIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]);
