@@ -1,4 +1,4 @@
-// Problem-1 :
+
 const filterEvenNumbers = (arr: number[]): number[] => {
   const filteredArray = arr.filter((num: number) => {
     if (num % 2 === 0) {
@@ -10,7 +10,8 @@ const filterEvenNumbers = (arr: number[]): number[] => {
 
 
 
-// Problem-2 :
+
+
 const reverseString = (text: string): string => {
   const singleLettersArray = text.split("")
   const reversedTextArray = singleLettersArray.reverse().join("");
@@ -19,7 +20,7 @@ const reverseString = (text: string): string => {
 
 
 
-// Problem-3 :
+
 type StringOrNumber = number | string;
 
 const checkType = (text: StringOrNumber) => {
@@ -33,7 +34,7 @@ const checkType = (text: StringOrNumber) => {
 
 
 
-// Problem-4 :
+
 const user = { id: 1, name: "John Doe", age: 21 };
 
 const getProperty = <T>(info: T, key: keyof T) => {
@@ -42,7 +43,7 @@ const getProperty = <T>(info: T, key: keyof T) => {
 
 
 
-// Problem-5 :
+
 interface Book {
   title: string;
   author: string;
@@ -61,7 +62,7 @@ const toggleReadStatus = (bookInfo: Book) => {
 
 
 
-// Problem-6 :
+
 class Person {
   name: string;
   age: number
@@ -88,7 +89,7 @@ class Student extends Person {
 
 
 
-// Problem-7 :
+
 type getIntersectionFunc = (array1: number[], array2: number[]) => number[];
 
 const getIntersection: getIntersectionFunc = (array1, array2) => {
